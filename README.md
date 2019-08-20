@@ -15,8 +15,6 @@ Now suppose we have a sector of angle pi/4 which is enclosed by a square of dime
   <img src="https://aquantumofknowledge.files.wordpress.com/2011/03/circle1.png">
 </p>
 
-![alt text](https://aquantumofknowledge.files.wordpress.com/2011/03/circle1.png)
-
 As we generate the coordinates, we see that they can be mapped within the image above. Every single coordinate will be within the square as 0 <= x <= 1 and 0 <= y <= 1. Since x and y are random numbers, the coordinates will be mapped randomly in the square.be
 
 We can say that the probability of x and y being within the quarter circle is equal to the number of coordinates which are within the quarter circle divided by the total number of coordinates. This ratio will always be less than or equal to 1.

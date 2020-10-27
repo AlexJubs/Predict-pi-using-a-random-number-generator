@@ -1,5 +1,5 @@
 # Predict-pi-using-a-random-number-generator
-A small python Project to estimate the value of pi using a random number generator
+A go script to estimate the value of pi using a random number generator
 
 The results:
 

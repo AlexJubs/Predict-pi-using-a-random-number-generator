@@ -8,7 +8,7 @@ import (
 func main() {
 	// initialize variables for number of coordinates within/outside the quarter circle
 	var inside int = 0
-	var outside int = 0
+	var total int = 0
 	var x float64
 	var y float64
 	for i := 0; i < 2000000; i++ {
@@ -20,7 +20,7 @@ func main() {
     	if (x*x + y*y <= 1.0) {
     		inside++
     	}
-    	outside++
+    	total++
 	}
 	// this ratio will be pi, because of the area of the quarter circle
 	fmt.Print("The algorithm predicts Pi to be: ")

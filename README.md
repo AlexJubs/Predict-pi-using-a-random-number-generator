@@ -1,6 +1,11 @@
 # Predict-pi-using-a-random-number-generator
 A small python Project to estimate the value of pi using a random number generator
 
+The results:
+
+<img src="https://user-images.githubusercontent.com/41933907/97347148-bd7ed680-1862-11eb-992a-1d79398528c1.png">
+
+
 How it works:
 
 Let's say we generate 2 float values at random between 0 and 1, the 2 values represent a coordinate on a cartesian plane.

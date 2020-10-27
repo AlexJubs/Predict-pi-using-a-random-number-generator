@@ -39,4 +39,4 @@ We equate the 2 sides of the equations and we get pi/4 = (number of coordinates 
 
 Thus, pi = 4*(number of coordinates in which x^2 + y^2 < 1)/(total number of coordinates)
 
-As we generate more and more coordinates, the accuracy of the ratio improves and hence the error on pi decreases. For this particular example, I generated 100,000 coordinates.
+As we generate more and more coordinates, the accuracy of the ratio improves and hence the error on pi decreases. For this particular example, I generated 200,000 coordinates.

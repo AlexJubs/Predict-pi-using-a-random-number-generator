@@ -17,11 +17,12 @@ func main() {
 		y = rand.Float64()
 
 		// if the coordinate is within the quarter circle
-    	if (x*x + y*y <= 1) {
+    	if (x*x + y*y <= 1.0) {
     		inside++
     	}
     	outside++
 	}
 	// this ratio will be pi, because of the area of the quarter circle
-	fmt.Println(4*(inside/outside))
+	fmt.Print("The algorithm predicts Pi to be ")
+	fmt.Println(4*(float64(inside)/float64(outside)))
 }

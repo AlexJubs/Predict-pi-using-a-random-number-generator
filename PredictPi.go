@@ -24,5 +24,5 @@ func main() {
 	}
 	// this ratio will be pi, because of the area of the quarter circle
 	fmt.Print("The algorithm predicts Pi to be: ")
-	fmt.Println(4*(float64(inside)/float64(outside)))
+	fmt.Println(4*(float64(inside)/float64(total)))
 }
